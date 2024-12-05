@@ -1,0 +1,51 @@
+/*seccion barra nav home*/
+.nav-enlace{
+    display: inline-block;
+    background: salmon;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlaceC{
+    display: inline-block;
+    background: rgb(77, 177, 202);
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.nav-enlace:hover{
+    background: rgb(212, 131, 25);
+}
+
+.barraNav{
+    background: rgb(190, 202, 77);
+    padding: 5px;
+}
+
+.HeadNav{
+    font-size: 45px;
+    color: rgb(255, 146, 3);
+    text-align: justify;
+    margin: 20px;
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(181, 245, 6);
+    text-align: center;
+}
+
+/*seccion barra nav de cursos*/
+.barraNavCursos{
+    background: rgb(77, 177, 202);
+    padding: 5px;
+}
+
+.nav-enlaceHC{
+    display: inline-block;
+    background: rgb(190, 202, 77);
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}

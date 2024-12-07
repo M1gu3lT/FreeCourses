@@ -49,3 +49,23 @@ h1{
     padding: 10px 30px;
     text-decoration: none;
 }
+
+/*seccion nav cupones*/
+.barraNavCupones{
+    background: rgb(202, 77, 175);
+    padding: 5px;
+}
+.nav-enlaceHC{
+    display: inline-block;
+    background: rgb(190, 202, 77);
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.nav-enlaceCup{
+    display: inline-block;
+    background: rgb(202, 77, 175);
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}

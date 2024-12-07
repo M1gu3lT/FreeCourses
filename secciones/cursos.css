@@ -3,3 +3,11 @@
     height: 183px;
 }
 
+h1{
+    color:rgb(77, 177, 202) ;
+}
+
+.padings{
+    padding-left: 50px;
+    padding-right: 50px;
+}

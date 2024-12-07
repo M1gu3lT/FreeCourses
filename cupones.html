@@ -1,28 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="nav/nav.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="secciones/cupones.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
 </head>
+
 <body>
     <header>
-        <nav class="barraNav">
-            <p >Cupones</p>
+        <nav class="barraNavCupones">
+            <h5>Cupones</h5>
             <a href="index.html" class="nav-enlace">Home</a>
-            <a href="cursos.html" class="nav-enlace">Cursos</a>
-            
+            <a href="cursos.html" class="nav-enlaceC">Cursos</a>
+
         </nav>
     </header>
     <main>
-        <h1>proyecto final</h1>
-        <p class="HeadNav">¡Bienvenidos!</p>
+        <h1>¡Seccion de cupones!</h1>
+        <h6 class="padings">En esta sección, encontrarás un listado de páginas que ofrecen cupones para cursos con
+            descuentos de hasta el 100%. Estas plataformas permiten acceder gratuitamente o a precios muy bajos a cursos
+            de alta calidad en áreas como tecnología, negocios, idiomas y más, facilitando el aprendizaje accesible y
+            flexible.</h6>
     </main>
+    <!-- columnas -->
+    <div class="container">
+        <div class="row align-items-start">
+            <div class="col">
+                <!-- card1 boostrap -->
+                <div class="card" style="width: 18rem;">
+                    <img src="ImgCupones/cursosDev2.png" class="cursa" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cursos dev</h5>
+                        <!--acordeon-->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    Informacion de la pagina
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Cursos Dev</strong> es una página que ofrece
+                                    cupones de descuento para cursos en la plataforma Udemy, en su mayoría con el 100%
+                                    de descuento, permitiendo acceder gratuitamente a una amplia variedad de contenidos
+                                    educativos, especialmente en tecnología y desarrollo. Es ideal para quienes buscan
+                                    oportunidades de aprendizaje sin costo.
+                                </div>
+                            </div>
+                        </div>
+                        <!--termina acordeon-->
+                        <a href="https://www.cursosdev.com/" class="btn btn-primary">Ir a la pagina</a>
+                    </div>
+                </div>
+                <!-- termina card 1 boostrap -->
+            </div>
+            <div class="col">
+                <!-- card2 boostrap -->
+                <div class="card" style="width: 18rem;">
+                    <img src="ImgCupones/facialix.png" class="cursa" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Facialix</h5>
+                        <!--acordeon-->
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Informacion de la pagina
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>Facialix</strong> se destaca por compartir cupones de
+                                    descuento, muchos de ellos del 100%, para acceder a cursos en plataformas como
+                                    Udemy. Esto permite a los usuarios aprender sobre tecnología, programación y otras
+                                    áreas de forma gratuita o a bajo costo, impulsando el desarrollo personal y
+                                    profesional.
+                                </div>
+                            </div>
+                        </div>
+                        <!--termina acordeon-->
+                        <a href="https://blog.facialix.com/#google_vignette" class="btn btn-primary">Ir a la pagina</a>
+                    </div>
+                </div>
+                <!-- termina card 2 boostrap -->
+            </div>
+            <div class="col">
 
+            </div>
+        </div>
+
+    </div>
+    <!--fin columnas-->
 </body>
+
 </html>
